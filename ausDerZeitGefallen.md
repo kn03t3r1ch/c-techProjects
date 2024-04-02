@@ -11,7 +11,9 @@ With this project I collaborated with a friend for a children's theater piece. I
 #### Time machine
 
 This gif demonstrates the different states the time machine is in during the theater play. Every state can be adjusted via midi-controller according to what is happening on stage.
+
 ![timeMachine](img/vvvv_AusDerZeitGefallen_Timemachine.gif)
+
 The different states are:
 
 - normal working (rotating at different speeds) time machine
@@ -27,7 +29,9 @@ The different states are:
 #### Forest
 
 This gif demonstrates the different states of the abstract forest the kids could walk through which can also be adjusted via midi.
+
 ![forest](img/vvvv_AusDerZeitGefallen_Forest.gif)
+
 The different states are:
 
 - abstract forest
@@ -40,10 +44,12 @@ The different states are:
 #### Radio
 
 The gif below demonstrates the visual and it's respective state for the radio that was needed for several scenes of the play. As usual, everything can be controlled via midi
+
 ![radio](img/vvvv_AusDerZeitGefallen_Radio.gif)
+
 The functionality is as follows:
 
-- audio buffer is read 
+- audio buffer is read
   - the values from the buffer are used to displace small circles from a linearSpread in the y-direction
   - the changes in y-direction are smoothed by using a filter
 - for transitioning into a more space or universe like scenario all circles are pushed into 3d space with a random spread
@@ -52,7 +58,9 @@ The functionality is as follows:
 ### Bonbons
 
 The gif below demonstrates the visual of the bonbons. It should be able to spawn several bonbons/spheres over time, let them fly around and then at a certain point in the play fall to the ground and later rise back up again.
+
 ![bonbons](img/vvvv_AusDerZeitGefallen_Bonbons.gif)
+
 The functionality is as follows:
 
 - a collision scene is setup with a bounding box and dynamic/rigid bodys with normal phong lighting
@@ -63,7 +71,9 @@ The functionality is as follows:
 ### Street lamp
 
 The gif below demonstrates the general functionality of the streetlamp visual. This visual was thought to support a scene at night where small flies in the light of a street lamp.
+
 ![streetlamp](img/vvvv_AusDerZeitGefallen_Streetlamp.gif)
+
 The functionality is as follows:
 
 - a basic texture with various circles moving circles is set up

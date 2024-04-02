@@ -1,6 +1,6 @@
 # Dancers Live Visuals
 
-![Title img](img/DancersPreviewPic.PNG)
+![Title img](img/DancersPreviewPic.png)
 
 ## Goal
 
